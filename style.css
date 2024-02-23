@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   padding: 1rem;
+    margin: 4rem auto;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+h1{
+    color: rgb(25, 207, 43);
+   
+}
+p{
+    font-size: 20px;
+    margin: 0.5rem;
+}
+label{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+#bill-amount,#cash-given{
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid rgb(25, 207, 43);
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+#butt{
+    background-color:  rgb(25, 207, 43);
+   font-size: 1.2rem;
+   padding: 0.7rem 1rem;
+   border-radius: 0.5rem;
+   cursor: pointer;
+   border: none;
+   color: white;
+}
+
+table{
+    border: 2px solid  rgb(25, 207, 43);
+    border-collapse: collapse;
+    text-align: left;
+    width: 40%;
+}
+caption{
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+th,td{
+    border: 2px solid  rgb(25, 207, 43);
+    padding: 0.7rem;
+}
+.message{
+    margin-top: 18px;
+    font-weight: 500;
+    display: none;
+}
+
+@media screen and (max-width:400px){
+    td,th{
+        padding: 0.3rem;
+    }
+}
